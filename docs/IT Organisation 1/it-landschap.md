@@ -6,6 +6,7 @@ tags:
 # Hoofdstuk 1
 
 Description
+
 | Begrip | Omschrijving |
 |------|--------------|
 | Industrie | Een verzameling bedrijven die gelijkaardige activiteiten uitvoeren en soortgelijke producten of diensten aanbieden. |
