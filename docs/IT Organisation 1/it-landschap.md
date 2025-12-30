@@ -7,6 +7,8 @@ tags:
 
 Description
 
+## Begrippenlijst
+
 | Begrip | Omschrijving |
 |------|--------------|
 | Industrie | Een verzameling bedrijven die gelijkaardige activiteiten uitvoeren en soortgelijke producten of diensten aanbieden. |
