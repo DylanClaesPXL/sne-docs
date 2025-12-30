@@ -83,8 +83,8 @@ Het doel van het GNU-project was het ontwikkelen van een open source besturingss
 <quiz> 
 ### Vraag 5
 Linux wordt vooral gebruikt op computers en bijna niet op servers.
-- [ ] Juist
-- [x] Fout
+- [ ] Waar
+- [x] Niet Waar
 
 Linux wordt gebruikt ook in (web)servers maar ook soms bij computers.
 </quiz>
@@ -114,8 +114,8 @@ Linus Torvalds ontwikkelde de Linux-kernel in 1991.
 <quiz> 
 ### Vraag 8
 BSD Unix is een open source variant van Unix.
-- [x] Juist
-- [ ] Fout
+- [x] Waar
+- [ ] Niet Waar
 
 BSD Unix is een open-source Unix-variant. Unix is de commerciële versie.
 </quiz>
@@ -154,7 +154,7 @@ Tux is de officiële mascotte van Linux.
 </quiz>
 
 <quiz> 
-### Vraag 11
+### Vraag 12
 Wat is een shell?
 - [x] Een interface om commando's uit te voeren
 - [ ] Een hardwarecomponent
@@ -162,4 +162,37 @@ Wat is een shell?
 - [ ] Een cloudservice
 
 Een shell is de interface tussen de user en het systeem.
+</quiz>
+
+<quiz> 
+### Vraag 13
+Je koopt een slimme wasmachine die op Linux draait. Welk voordeel biedt Linux de fabrikant hier waarschijnlijk?
+- [ ] De fabrikant hoeft geen handleiding meer te schrijven voor de wasmachine.
+- [x] Het systeem is modulair en kan worden aangepast voor specifieke, kleine hardware.
+- [ ] De wasmachine kan nu automatisch Windows-programma's draaien.
+- [ ] Linux is het enige systeem dat verbinding kan maken met waterpompen.
+
+Linux kan tot een minimale versie gemaakt worden zodat die perfect past op de beperkte hardware van IoT-apparaten.
+</quiz>
+
+<quiz> 
+### Vraag 14
+Wat betekent de term 'Open Source' in de context van het GNU-project?
+- [ ] Dat de computerkast altijd open moet staan voor ventilatie.
+- [ ] Dat het systeem alleen werkt als je de broncode zelf hebt geschreven.
+- [ ] Dat het besturingssysteem automatisch alle bestanden openzet voor het internet.
+- [x] Dat de broncode voor iedereen beschikbaar is om te bekijken, aan te passen en te verspreiden.
+
+Dit bevordert samenwerking en zorgt ervoor dat niemand afhankelijk is van één commercieel bedrijf.
+</quiz>
+
+<quiz> 
+### Vraag 15
+Als we spreken over 'Linux is een besturingssysteem zoals Windows', wat is dan een groot filosofisch verschil?
+- [ ] Windows is ouder dan Unix en Linux samen.
+- [ ] Linux werkt alleen op computers die geen muis hebben.
+- [ ] Linux kan geen kleuren weergeven op een monitor.
+- [x] Linux is gebouwd door een wereldwijde gemeenschap, terwijl Windows door één bedrijf wordt beheerd.
+
+Dit open model vs het gesloten model van Microsoft is het kernverschil tussen de twee.
 </quiz>

@@ -8,6 +8,7 @@ copyright: >
 
 markdown_extensions:
   - tables
+  - pymdownx.caret
 
 # Configuratie
 theme:
