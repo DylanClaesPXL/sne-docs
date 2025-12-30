@@ -1,25 +1,57 @@
-name: ci
+name: Deploy MkDocs site to GitHub Pages
+
 on:
   push:
-    branches: 
+    branches:
       - main
-permissions:
-  contents: write
+
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
-          python-version: 3.x
-      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
-      - uses: actions/cache@v3
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          pip install mkdocs mkdocs-material
+
+      - name: Build MkDocs site
+        run: |
+          mkdocs build
+
+      - name: MkDocs Quiz Plugin
+        run: |
+          pip install mkdocs-quiz
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v6
         with:
-          key: mkdocs-material-${{ env.cache_id }}
-          path: .cache
-          restore-keys: |
-            mkdocs-material-
-      - run: pip install mkdocs-material 
-      - run: pip install mkdocs-quiz
-      - run: mkdocs gh-deploy --force
+          path: ./site
+
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    needs: build
+
+    permissions:
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
