@@ -53,6 +53,7 @@ nav:
     - Hoofdstuk 1: Linux Essentials/introductie.md
     - Hoofdstuk 2: Linux Essentials/installatie.md
   - Networks 1:
+    - Hoofdstuk 3: Networks 1/protocols-and-models.md
     - VLSM: Networks 1/vlsm.md
     - Packet Tracer: Networks 1/packet-tracer.md
   - IT Organisation 1:
