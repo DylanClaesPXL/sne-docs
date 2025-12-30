@@ -20,15 +20,11 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install mkdocs mkdocs-material
+          pip install mkdocs mkdocs-material mkdocs-quiz
 
       - name: Build MkDocs site
         run: |
           mkdocs build
-
-      - name: MkDocs Quiz Plugin
-        run: |
-          pip install mkdocs-quiz
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
