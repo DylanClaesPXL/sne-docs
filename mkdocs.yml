@@ -6,6 +6,9 @@ site_author: Dylan
 copyright: >
   <a href="#__consent">Cookie-instellingen</a>
 
+markdown_extensions:
+  - tables
+
 # Configuratie
 theme:
   logo: assets/icon.png
