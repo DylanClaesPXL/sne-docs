@@ -78,7 +78,3 @@ extra:
     - icon: fontawesome/solid/graduation-cap
       link: https://blackboard.pxl.be/
       name: Blackboard
-
-# CSS
-extra_css:
-  - stylesheets/custom.css
