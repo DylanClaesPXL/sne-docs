@@ -4,7 +4,7 @@ tags:
 ---
 
 # Hoofdstuk 2
-
+Dit hoofdstuk is nog niet af!
 
 <quiz> 
 ### Vraag 1
