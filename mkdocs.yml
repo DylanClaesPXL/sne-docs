@@ -52,8 +52,21 @@ nav:
   - Linux Essentials:
     - Hoofdstuk 1: Linux Essentials/introductie.md
     - Hoofdstuk 2: Linux Essentials/installatie.md
+    - Hoofdstuk 3: Linux Essentials/command-line-interface.md
+    - Hoofdstuk 4: Linux Essentials/bestanden-en-mappen.md
+    - Hoofdstuk 5: Linux Essentials/software-en-pakketten.md
+    - Hoofdstuk 6: Linux Essentials/bestandsinhoud.md
+    - Hoofdstuk 7: Linux Essentials/geavanceerde-commandostructuren.md
+    - Hoofdstuk 8: Linux Essentials/filters.md
+    - Hoofdstuk 9: Linux Essentials/gebruikers-en-groepen.md
+    - Hoofdstuk 10: Linux Essentials/rechten.md
+    - Hoofdstuk 11: Linux Essentials/automatisatie.md
   - Networks 1:
+    - Hoofdstuk 1: Networks 1/networking-today.md
+    - Hoofdstuk 2: Networks 1/basic-switch-and-end-device-configuration.md
     - Hoofdstuk 3: Networks 1/protocols-and-models.md
+    - Hoofdstuk 4: Networks 1/physical-layer.md
+    - Hoofdstuk 5: Networks 1/number-systems.md
     - Extra:
       - VLSM: Networks 1/vlsm.md
       - Packet Tracer: Networks 1/packet-tracer.md
