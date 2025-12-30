@@ -1,0 +1,84 @@
+# Site
+site_name: Studiehulpje
+site_author: Dylan
+
+# Copyright
+copyright: >
+  <a href="#__consent">Cookie-instellingen</a>
+
+# Configuratie
+theme:
+  logo: assets/icon.png
+  favicon: assets/pxl-logo.png
+  language: nl
+  name: material
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.instant.preview
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: red
+      accent: red
+      toggle:
+        icon: material/weather-sunny
+        name: Switch naar dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: material/weather-night
+        name: Switch naar light mode
+
+# Plugins
+plugins:
+  - search
+  - tags
+  - mkdocs_quiz
+
+# Pages
+nav:
+  - Home:
+    - Introductie: index.md
+  - Linux Essentials:
+    - Hoofdstuk 1: Linux Essentials/introductie.md
+    - Hoofdstuk 2: Linux Essentials/installatie.md
+  - Networks 1:
+    - VLSM: Networks 1/vlsm.md
+    - Packet Tracer: Networks 1/packet-tracer.md
+  - IT Organisation 1:
+    - Hoofdstuk 1: IT Organisation 1/it-landschap.md
+    - Hoofdstuk 2: IT Organisation 1/projectmatig-werken.md
+    - Hoofdstuk 3: IT Organisation 1/aanpak-van-projecten.md
+    - Hoofdstuk 4: IT Organisation 1/beroepsprofielen.md
+    - Hoofdstuk 5: IT Organisation 1/itil.md
+
+# Toevoegingen
+extra:
+  consent:
+    title: Privacyinstellingen
+    actions:
+      - accept
+      - reject
+    description: We gebruiken cookies om de vragen van de quiz op te slaan zodat je deze niet kwijt zult zijn! Je kan jouw toestemming te alle tijden intrekken of wijzigen via "Cookie-instellingen" onderaan de website.
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/
+      name: GitHub - Repository
+    - icon: fontawesome/solid/graduation-cap
+      link: https://blackboard.pxl.be/
+      name: Blackboard
+
+# CSS
+extra_css:
+  - stylesheets/custom.css
