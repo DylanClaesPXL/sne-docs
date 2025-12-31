@@ -1,6 +1,6 @@
 ---
 tags:
-  - Automatiesatie
+  - Automatisatie
 ---
 
 # Hoofdstuk 11
