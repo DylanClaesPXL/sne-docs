@@ -1,4 +1,14 @@
 ---
+quiz:
+  enabled: true
+  auto_number: false
+  show_correct: true
+  auto_submit: false
+  disable_after_submit: true
+  shuffle_answers: true
+  show_progress: true
+  language: en
+  
 tags:
   - Command Line Interface (CLI)
 ---
@@ -146,6 +156,7 @@ Je bevindt je in de map ```/var/log```. Welk commando brengt je direct terug naa
 - [ ] cd /root
 - [ ] echo ~
 - [ ] cd .
+- [x] cd
 
 Hoewel dit technisch naar dezelfde locatie leidt voor de student-gebruiker, is de tilde een universele snelkoppeling voor de persoonlijke map van de actieve gebruiker.
 </quiz>

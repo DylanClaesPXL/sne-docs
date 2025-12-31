@@ -7,6 +7,11 @@ copyright: >
   <a href="#__consent">Cookie-instellingen</a>
 
 markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - tables
   - pymdownx.caret
 
@@ -48,6 +53,7 @@ plugins:
   - search
   - tags
   - mkdocs_quiz
+  - glightbox
 
 # Pages
 nav:
