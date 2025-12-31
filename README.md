@@ -1,5 +1,3 @@
-# Studiehulpje
-
 <div align="center">
   <img src="docs/assets/banner-sne-docs.svg" alt="Welkom bij Studiehulpje Documentatie">
 </div>
