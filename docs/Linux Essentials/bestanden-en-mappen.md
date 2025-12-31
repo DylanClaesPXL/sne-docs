@@ -411,8 +411,8 @@ Een enkele punt wordt vaak gebruikt in commando's om 'hier' aan te duiden.
 <quiz> 
 ### Vraag 13
 In de CLI zie je student@ubuntu-server:~/Downloads$. Wat is je huidige werkmap?
-- [x] /Downloads
-- [ ] /home/student/Downloads
+- [ ] /Downloads
+- [x] /home/student/Downloads
 - [ ] /home/Downloads
 
 De tilde (~) staat voor /home/student, dus de volledige map is /home/student/Downloads.
