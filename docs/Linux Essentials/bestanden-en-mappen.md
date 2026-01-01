@@ -210,7 +210,7 @@ student@ubuntu-server:~$ mkdir backup/downloads/pxl
 student@ubuntu-server:~$ ls
 mkdir: cannot create directory ‘backup/downloads/pxl: No such file or directory
 ```
-Deze fout komt door dat de map downloads nog niet in backup bestaand. Dit kan je oplossen door de optie -p.
+Deze fout komt door dat de map downloads nog niet in backup bestaat. Dit kan je oplossen door de optie -p.
 ```
 student@ubuntu-server:~$ mkdir -p backup/downloads/pxl
 student@ubuntu-server:~$ tree backups
