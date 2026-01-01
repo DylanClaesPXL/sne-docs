@@ -4,6 +4,7 @@ tags:
 ---
 
 # Hoofstuk 1
+Bij dit hoofdstuk ga je alles over de moderne technologies van netwerken praten en nog veel meer.
 
 ## Network Components
 
