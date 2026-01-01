@@ -275,7 +275,127 @@ Je kan dit commando gebruiken voor zowel bestanden als mappen naar dezelfde map 
 - Je kan ook recursief kopiëren. Om volledige mappen met alle submappen en files in die map te kopiëren moet je de optie -r (recursief) gebruiken.
 - Onthoud dat het commando standaard bestaanden bestanden overschrijft. We kunnen de optie -i (interactief) gebruiken om een prompt te krijgen waarbij we moeten bevestigen of we het bestand wel willen overschrijven.
 
-Hier komen nog meer commando's!
+9 **rename**
+
+Dit commando laat je bestadnen hernoemen.
+
+```
+student@ubuntu-server:~$ rename 's/file/document/' *.txt
+```
+
+Als het commando nog niet is geïnstalleerd, dan kan je dat doen met sudo apt -y install rename.
+
+Er gebeurt best wat bij het bovenstaande voorbeeld, we gaan het even samenvatten wat er aanwezig is en wat er gebeurt:
+- Het rename commando neemt een string met de waarde s/file/document/. Dit is de regex die door de opdracht wordt gebruikt om (s) te zoeken naar de namen die het woord file bevatten en deze te vervangen door het woord document.
+- Het laatste argument is *.txt. We gebruiken dit om het commando rename te vertellen om alleen de vervangende regex uit te voeren op bestanden die eindigen op .txt
+
+Een * wordt beschouwd als een wildcard teken in bash. Het verwijst naar nul, een of meer karakters.
+
+Je kan het commando ook gebruiken om bestandsextentie van bestanden en mappen te wijzigen.
+
+```
+student@ubuntu-server:~$ rename 's/\.txt/.odt/' *
+```
+
+Je ziet dat de \ voor het - teken in de zoekreeks geplaatst is. Sommige tekens hebben een spceiale betekenissen in reguliere expressies bijvoorbeeld: * . $ [ ] ( ) / { }.
+Als we willen dat de bash shell dit teken ziet als een string, moet je escaping gebruiken. Dit is een concept van het gebruik van de \ om aan te geven dat je het teken dat volgt wordt gezien als een string in plaats van een speciaal teken.
+
+Je kan het commando ook gebruiken om meerdere bestandsextentie tegelijk te wijzigen.
+
+```
+student@ubuntu-server:~$ rename -E 's/\.odt/.doc/i' -E 's/\.backup/.doc/' *
+```
+Je ziet hoe we een i hebbent toegevoegd aan het einde van de perl-expressie om hoofdletterongevoelig te zoeken. Dus het rename -E `s/\.odt/.doc/i` commando hernoemt de odt-extensie naar doc, ongeacht of er hoofdletters zijn of niet.
+
+10 **file**
+
+Je kan dit commmando gebruiken om het type van een bestand te identificeren.
+
+```
+student@ubuntu-server:~$ file /etc/passwd
+/etc/passwd: ASCII text
+```
+
+11 **rm**
+
+Je kan met dit commando bestanden en mappen verwijderen. Onthoud dat je rekening mee moet houden dat het geen mappen met andere bestanden of mappen in verwijdert.
+
+```
+student@ubuntu-server:~$ rm test.doc
+```
+
+Het commando heeft ook meerdere opties, de meest gebruikte combinatie is rm -rf:
+
+- -r betekent dat het bestanden en mappen recursief zal verwijderen.
+- -f forceerdt het commando om ook niet-lege mappen te verwijderen wat niet standaard is.
+
+Wees bedachtzaam bij het gebruik van het commando rm -rf als root gebruiker!
+
+Je hebt geen Prullenbak zoals bij Windows in Linux. Eenmaal verwijderd is het weg.
+
+12 **find**
+
+Dit commando laat je bestanden zoeken. Het doorzoekt het systeem naar bestanden die we zoeken. Je kan dit aangeven door in welke directory en hoe de bestandsnaam eruit moet zien. (met fileglobbing)
+
+Als je geen map opgeeft begint het zoeken in de huidige map.
+
+```
+student@ubuntu-server:~$ find -name "*sh*"
+./.bash_logout
+./.local/share
+./.lesshst
+./.ssh
+./.bashrc
+./.bash_history
+```
+
+Je kan ook een directory opgeven van waaruit hij moet starten.
+
+```
+student@ubuntu-server:~$ find / -name "modem*"
+...
+find: ‘/boot/lost+found’: Permission denied
+find: ‘/root’: Permission denied
+/usr/share/lintian/overrides/modemmanager
+/usr/share/doc/modemmanager
+/usr/share/doc/util-linux/modems-with-agetty.txt
+/usr/share/doc/netplan/examples/modem.yaml
+/usr/lib/firmware/qcom/sdm845/modemuw.jsn
+/usr/lib/firmware/qcom/sdm845/modem_nm.mbn.zst
+/usr/lib/firmware/qcom/sdm845/modem.mbn.zst
+/usr/lib/firmware/qcom/qrb4210/modemuw.jsn
+/usr/lib/firmware/qcom/qrb4210/modem.mbn.zst
+/usr/lib/firmware/qcom/qrb4210/modemr.jsn
+/usr/lib/firmware/qcom/apq8016/modem.mbn.zst
+/usr/lib/firmware/qcom/apq8096/modem.mbn.zst
+/usr/lib/firmware/qcom/apq8096/modemr.jsn
+/usr/lib/firmware/qcom/qcm2290/modemuw.jsn
+/usr/lib/firmware/qcom/qcm2290/modem.mbn.zst
+/usr/lib/firmware/qcom/qcm2290/modemr.jsn
+...
+```
+Je ziet dat er sommige geen permissies voor hebt dit kan je oplossen met sudo ervoor te zetten.
+
+Je kan ook de zoekopdracht hoofdletterongevoelig doen door -iname te gebruiken inplaats van -name.
+
+13 **locate**
+
+Dit commando laat je op een andere manier naar bestanden zoeken, Het doorzoekt een database die informatie bevat over de bestanden in het bestandssysteem.
+
+Voordat je het commando gaat gebruiken om te zoeken, is het een goede gewoonte om het bij te werken de database.
+
+```
+student@ubuntu-server:~$ sudo updatedb
+student@ubuntu-server:~$ locate testfile
+/home/student/testfile
+```
+
+Als je bestanden wilt zien waar je geen priviliges voor hebt, moet je sudo gebruiken.
+
+- Als je hoofdletterongevoelig wilt zoeken, dan moet je de optie -i gebruiken.
+
+- Als je alleen in bestandsnamen wilt zoeken en niet mapnamen moet je de optie -b gebruiken.
+
 
 ## Quiz
 Elk hoofdstuk heeft een quiz waar je een aantal vragen moet beantwoorden zodat je jezelf kan oefenen of je genoeg kennis hebt voor het hoofdstuk.
