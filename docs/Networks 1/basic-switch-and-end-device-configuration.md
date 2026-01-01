@@ -108,9 +108,9 @@ Switch(config-line)#exit
 Switch(config)#
 ```
 
- ## The Command Structure
+## The Command Structure
 
- ### Basic IOS Command Structure
+### Basic IOS Command Structure
 Een commando bestaat uit meerdere delen zoals: Prompt, Command, Space, Keyword of argument.
 
 - **Keyword:** Een specifiek parameter gedefinieerd in het OS (ip protocols)
