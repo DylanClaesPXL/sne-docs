@@ -14,7 +14,7 @@ tags:
 ---
 
 # Hoofdstuk 4
-Bij dit hoofdstuk ga je alles over bestanden en mappen zien ook ga je nieuwe commando's bij leren hoe je folders of bestanden aanmaakt, verplaatst, verwijderd.
+Bij dit hoofdstuk ga je alles over bestanden en mappen zien, ook ga je nieuwe commando's bij leren hoe je folders of bestanden aanmaakt, verplaatst, verwijderd en nog veel meer.
 
 ## Theorie
 Bij Windows start een absoluut pad met C:/... maar in Linux gebruiken we geen schijfletters. De C:/ is bij Linux de root directory. Deze map wordt aan het begin van een pad aangeduid als /.
@@ -496,7 +496,7 @@ Het mv-commando neemt de bron als eerste argument en de bestemming als tweede.
 
 <quiz> 
 ### Vraag 10
-Je wilt een bestand genaamd data.txt verplaatsen naar een map genaamd archief. Welk commando gebruik je?
+In de uitvoer van ls -l zie je de kolommen student student. Waar verwijst de tweede 'student' naar?
 - [ ] De persoon die het bestand het laatst heeft geopend.
 - [ ] De eigenaar van het bestand.
 - [ ] De map waarin het bestand staat.

@@ -16,6 +16,9 @@ tags:
 # Hoofdstuk 2
 Dit hoofdstuk is nog niet af!
 
+## Quiz
+Elk hoofdstuk heeft een quiz waar je een aantal vragen moet beantwoorden zodat je jezelf kan oefenen of je genoeg kennis hebt voor het hoofdstuk.
+
 <quiz> 
 ### Vraag 1
 Wat is een snapshot bij de virtuele machines?
