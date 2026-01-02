@@ -223,7 +223,7 @@ Netwerkcommunicatie is afhankelijk van de gebruikte Medium (kabels of draadloos)
 Een computer kan handmatig (Static) een IP-adres krijgen of automatisch via DHCP. Maar elk end devices op een netwerk moet een IP address hebben om te kunnen communiceren.
 
 ### Switch Virtual Interface Configuration
-Om een switch remotely acces te krijgen moet dit geconfigureerd zijn bij de SVI (Switch Virtual Interface).
+Om een switch remotely access te krijgen moet dit geconfigureerd zijn bij de SVI (Switch Virtual Interface).
 
 Om dit te configureren volg je de stappen hieronder:
 
