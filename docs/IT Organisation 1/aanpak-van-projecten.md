@@ -30,3 +30,6 @@ Description
 | Story Point               | Eenheid in scrum waarmee een team de relatieve omvang, complexiteit en inspanning van een taak of user story inschat (in plaats van deze in uren of dagen te meten).                                        |
 | User Story                | Een korte, eenvoudige beschrijving van een kenmerk, vertelt vanuit het perspectief van de behoefte van een gebruiker.                                                                                       |
 | Visueel Management        | Het visueel maken van taken en ze visueel opvolgen (wat je nog moet doen, waarmee je bezig bent, wat klaar is en welke punten je later opneemt).                                                            |
+
+## Quiz
+Elk hoofdstuk heeft een quiz waar je een aantal vragen moet beantwoorden zodat je jezelf kan oefenen of je genoeg kennis hebt voor het hoofdstuk.

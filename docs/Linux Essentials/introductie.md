@@ -21,10 +21,12 @@ Linux is een besturingssysteem, Zoals Windows, MacOS, en nog veel meer. Linux is
 
 Linux wordt ook vaak gebruikt in Smartphones, (web)servers, tablets, IoT-apparaten, slimme wasmachines, zelfrijdende auto’s, routers, modems, Playstations, en nog veel meer.
 
+### Unix
 Unix is gemaakt in 1969 door Dennis Ritchie & Ken Thompson. Het bedrijf AT&T Bell Labs wou Unix commercieel gaan verkopen. BSD ontwikkelde tegelijkertijd het besturingssysteem verder onafhankelijk van Unix. Door dit leidde er 2 versies.
 
 In de jaren 80 waren er verschillende versies van Unix, Wegens dat Unix werd gecommercialiseerd (AT&T), werd de broncode van Unix ook herschreven: GNU Project (Niet Unix). Het doel ervan was de ontwikkeling van een open source besturingssysteem waar iedereen kon aan werken. GNU-project had alleen geen kernel.
 
+### Distributies (Distro's)
 Linux-distributies (Distro’s) vereenvoudigen het proces van het installeren van GNU/Linux op je computer. Je hebt verschillende bekende distro’s zoals Ubuntu, RedHat, Fedora, Debian, ArchLinux.
 
 <!--

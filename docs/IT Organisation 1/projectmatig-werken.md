@@ -20,3 +20,6 @@ Description
 | Mijlpaal | Het einde van een projectfase, een punt waarop een belangrijke beslissing moet genomen worden of een belangrijke fase eindigt. |
 | Project kickoff | Startmeeting voor het project met alle leden van het projectteam (en eventueel de klant). |
 | Garantieperiode | Periode tijdens dewelke problemen gratis opgelost worden. |
+
+## Quiz
+Elk hoofdstuk heeft een quiz waar je een aantal vragen moet beantwoorden zodat je jezelf kan oefenen of je genoeg kennis hebt voor het hoofdstuk.

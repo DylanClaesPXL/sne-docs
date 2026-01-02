@@ -115,3 +115,5 @@ Een commando bestaat uit meerdere delen zoals: Prompt, Command, Space, Keyword o
 
 - **Keyword:** Een specifiek parameter gedefinieerd in het OS (ip protocols)
 - **Argument:** Een waarde die door de gebruiker wordt opgegeven. (Bijvoorbeeld een IP-address)
+
+Er wordt hier nog toegevoegd!
