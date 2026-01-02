@@ -3,4 +3,4 @@ tags:
   - Protocols and models
 ---
 
-# Hoofstuk 3
+# Hoofdstuk 3

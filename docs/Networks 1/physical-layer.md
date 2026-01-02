@@ -3,4 +3,4 @@ tags:
   - Physical Layer
 ---
 
-# Hoofstuk 4
+# Hoofdstuk 4

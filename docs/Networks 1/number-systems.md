@@ -3,7 +3,7 @@ tags:
   - Number Systems
 ---
 
-# Hoofstuk 5
+# Hoofdstuk 5
 Bij dit hoofdstuk ga je alles over decimaal, binary en hexadecimaal hebben.
 
 ## Binary Number System

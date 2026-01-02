@@ -3,7 +3,7 @@ tags:
   - Networking Today
 ---
 
-# Hoofstuk 1
+# Hoofdstuk 1
 
 
 ```Dit is heel de blok```
