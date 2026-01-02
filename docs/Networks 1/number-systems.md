@@ -23,17 +23,17 @@ Bij dit hoofdstuk ga je alles over decimaal, binary en hexadecimaal hebben.
 
 De binaire positionele notatie staat hieronder in een tabel hoe deze werkt.
 
-![Binaire Positional Notation](/assets/binaire-positional-notation.png){ width=800px }
+![Binaire Positional Notation](/sne-docs/assets/binaire-positional-notation.png){ width=800px }
 
 ### Convert Binary to Decimal
 Om een binair getal om te zetten naar decimaal kan je hieronder vinden.
 
-![Binair naar Decimaal](/assets/binair-naar-decimaal.png){ width=800px }
+![Binair naar Decimaal](/sne-docs/assets/binair-naar-decimaal.png){ width=800px }
 
 ### Decimal to Binary Conversion
 Gebruik de binaire positionele tabel om een decimaal getal om te zetten.
 
-![Decimaal naar Binair](/assets/decimal-to-binary.png){ width=800px }
+![Decimaal naar Binair](/sne-docs/assets/decimal-to-binary.png){ width=800px }
 
 ### IPv4 Addresses
 Routers en computers kunnen alleen binary verstaan. Maar mensen werken met decimaal. Dus het is belangrijk dat je verstand hebt van de 2 numbering system en hoe ze gebruikt worden in networking.
