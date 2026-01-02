@@ -226,6 +226,7 @@ Een computer kan handmatig (Static) een IP-adres krijgen of automatisch via DHCP
 Om een switch remotely acces te krijgen moet dit geconfigureerd zijn bij de SVI (Switch Virtual Interface).
 
 Om dit te configureren volg je de stappen hieronder:
+
 - Gebruikt het commando `interface vlan 1` in global configuration mode. Standaard is dit VLAN 1.
 - Daarna ga je een IP-adres toevoegen met het commando `ip address ip-address subnet-mask`.
 - Uiteindelijk ga je de virtual interface enable doen met het commando `no shutdown`.
