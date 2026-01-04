@@ -1,4 +1,14 @@
 ---
+quiz:
+  enabled: true
+  auto_number: false
+  show_correct: true
+  auto_submit: false
+  disable_after_submit: true
+  shuffle_answers: true
+  show_progress: true
+  language: en
+  
 tags:
   - Basic Switch and End Device Configuration
 ---
@@ -240,3 +250,4 @@ Sw-Floor-1(config-if)#no shutdown
 
 ## Quiz
 Elk hoofdstuk heeft een quiz waar je een aantal vragen moet beantwoorden zodat je jezelf kan oefenen of je genoeg kennis hebt voor het hoofdstuk.
+
