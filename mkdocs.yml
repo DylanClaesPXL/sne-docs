@@ -110,7 +110,7 @@ extra:
   generator: false
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/
+      link: https://github.com/DylanClaesPXL/sne-docs
       name: GitHub - Repository
     - icon: fontawesome/solid/graduation-cap
       link: https://blackboard.pxl.be/
